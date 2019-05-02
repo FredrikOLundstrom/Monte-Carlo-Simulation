@@ -99,8 +99,7 @@ w_efficient <- C_inv %*% (lambda1_efficient*vector_of_ones + lambda2_efficient*m
 #--------------------------------------------------------------------------------------------------
 # Plotting
 #--------------------------------------------------------------------------------------------------
-plot(res_xx, res_y, pch = 20, col = "BLUE", ylim = c(-6.4e-4, 6e-4), xlim = c(0.006, 0.015), xlab = "Risk (Standard Deviation)", ylab = "Expected Return", main = "Monte Carlo Simulation, with Markowitz's frontier")
-points(res_xx_2, res_y_2, pch = 20, col = "BLACK")
+plot(res_xx_2, res_y_2, pch = 20, col = "BLACK", ylim = c(-6.4e-4, 6e-4), xlim = c(0.006, 0.015), xlab = "Risk (Standard Deviation)", ylab = "Expected Return", main = "Monte Carlo Simulation, with Markowitz's frontier")
 points(res_xx, res_y, pch = 20, col = "BLUE")
 lines(variance_efficient_frontier, my_p, col="RED", type = "l", lwd = 2)
 points(x_min, y_min, pch = 21, cex = 2, bg = "RED",col = "BLACK")
