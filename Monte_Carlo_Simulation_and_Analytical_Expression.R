@@ -1,6 +1,7 @@
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
-#SERIES 7, Introduction to Computational Finance
+#A Monte Carlo simulation and drawing the efficient frontier of portfolios containing stocks
+#McDonalds, Bank of America, IBM, Chevron, Coca-Cola, Novartis and AT&T
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
 # IMPORT DATA
